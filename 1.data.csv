@@ -1,0 +1,6 @@
+Age,Salary,Gender,Address
+25.0,50000.0,Male,NY
+30.0,60000.0,Female,CA
+,70000.0,,TX
+45.0,,Male,FL
+50.0,90000.0,Female,NV
