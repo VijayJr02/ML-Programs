@@ -30,3 +30,8 @@ for name, model in models.items():
     model.fit(X_train)
     preds = [1 if x == -1 else 0 for x in model.predict(X_test)]
     print(f"{name} Accuracy: {accuracy_score(y_test, preds):.4f}")
+
+
+#kaggle link for dataset
+#open this link and ryt side youll have option to download , download the zip file and extract ...
+#https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
